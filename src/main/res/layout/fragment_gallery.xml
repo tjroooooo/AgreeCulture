@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextPH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Soil pH"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextNitrogen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Nitrogen Levels"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextMoisture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Moisture Content"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
